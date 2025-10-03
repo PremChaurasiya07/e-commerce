@@ -205,7 +205,7 @@ const Footer = () => {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link onClick={scrollToTop} to="about" sx={{ color: "white" }}>
                   {i18n.t("footer.usage")}
                 </Link>
@@ -214,7 +214,7 @@ const Footer = () => {
                 <Link onClick={scrollToTop} to="about" sx={{ color: "white" }}>
                   {i18n.t("footer.FAQ")}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   onClick={scrollToTop}
